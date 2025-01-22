@@ -1,3 +1,4 @@
+
 :root {
     --bg-color: #ffffff;
     --text-color: #000000;
@@ -25,7 +26,8 @@ body {
     padding: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    background-color: var(--bg-color);
+    background-color: rgb(235, 162, 6);
+
 }
 
 .mode-toggle {
@@ -36,7 +38,7 @@ body {
 .mode-toggle button {
     padding: 5px 10px;
     border: none;
-    background-color: var(--button-bg);
+    background-color: black;
     color: var(--button-text);
     border-radius: 5px;
     cursor: pointer;
@@ -85,7 +87,7 @@ body {
     width: 100%;
     padding: 10px;
     border: none;
-    background-color: var(--button-bg);
+    background-color: black;
     color: var(--button-text);
     font-size: 16px;
     border-radius: 5px;
@@ -101,12 +103,13 @@ body {
 }
 
 .forgot-password {
-    color: var(--button-bg);
+    color: white;
     text-decoration: none;
     font-size: 14px;
     display: flex;
     align-items: center;
     gap: 5px;
+    margin-left: 5px;
 }
 
 .forgot-password:hover {
