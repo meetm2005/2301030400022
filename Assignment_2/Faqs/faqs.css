@@ -1,9 +1,14 @@
+* {
+    box-sizing: border-box;
+    /* Ensure padding and borders are included in width/height calculations */
+}
+
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     background-color: #f9f9f9;
     color: #333;
-    padding-top: 60px;
+    padding-top: 70px;
     /* Space for fixed navbar */
 }
 
@@ -11,6 +16,7 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
 .navbar {
     position: fixed;
     top: 0;
@@ -22,6 +28,14 @@ a {
     align-items: center;
     z-index: 1000;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: 60px;
+    /* Explicit height for the navbar */
+}
+
+.navbar .col-8 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
 }
 
 .faq-container {
@@ -32,7 +46,7 @@ a {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     margin-top: 80px;
-    /* Extra space to ensure the content starts below the navbar */
+    /* Ensure content starts below the navbar */
 }
 
 .faq-title {
