@@ -8,3 +8,7 @@ toggleModeButton.addEventListener("click", () => {
     ? '<i class="fas fa-sun"></i> Light Mode'
     : '<i class="fas fa-moon"></i> Dark Mode';
 });
+
+function gotoHomePage(){
+   
+}

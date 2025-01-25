@@ -7,18 +7,29 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    padding: 1rem;
+    /* Ensure the body takes the full height of the viewport */
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(235, 162, 6);
+    z-index: 1000;
 }
 
 .support-container {
-    background-color: rgb(235, 162, 6, 0.8);
+    background-color: rgba(235, 162, 6, 0.8);
     padding: 2rem;
     border-radius: 10px;
-    box-shadow: 0 4px 15px rgb(235, 162, 6, 0.5);
+    box-shadow: 0 4px 15px rgba(235, 162, 6, 0.5);
     width: 90%;
     max-width: 600px;
+    text-align: center;
+    /* Center text inside the container */
+    margin-top: 60px;
+    /* Add some spacing if the navbar overlaps */
 }
-
 .support-container h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
