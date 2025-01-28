@@ -1,5 +1,58 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
 
+html,
+body {
+        width: 100%;
+        height: 100%;
+        font-family: 'Gilroy';
+}
 #c1{
+        height: 400px;
+        width: 400px;
+        background-color: rgb(235, 162, 6);
+        margin-top: 70px;
+        margin-left: 70px;
+
+}
+#c2 {
+        height: 400px;
+        width: 400px;
+        background-color: rgb(235, 162, 6);
+        margin-top: 70px;
+        margin-left: 70px;
+
+}
+#c3 {
+        height: 400px;
+        width: 400px;
+        background-color: rgb(235, 162, 6);
+        margin-top: 70px;
+        margin-left: 70px;
+
+}
+#c4 {
+        height: 400px;
+        width: 400px;
+        background-color: rgb(235, 162, 6);
+        margin-top: 70px;
+        margin-left: 70px;
+
+}
+
+#c5 {
+        height: 400px;
+        width: 400px;
+        background-color: rgb(235, 162, 6);
+        margin-top: 70px;
+        margin-left: 70px;
+
+}
+
+#c6 {
         height: 400px;
         width: 400px;
         background-color: rgb(235, 162, 6);
